@@ -1,0 +1,25 @@
+# Environment settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.pyc
+
+# Local sessions, databases, and logs
+.adk/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# Backup archives
+*.zip 
